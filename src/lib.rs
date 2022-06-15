@@ -8,3 +8,6 @@
 //! the object name itself.
 
 pub mod applicationlibrary;
+
+pub use applicationlibrary::gen_appslib;
+pub use applicationlibrary::MyAppsLib;
